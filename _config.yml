@@ -7,11 +7,6 @@ last_name: Wang
 email: wangbn2069@163.com
 
 # 下面是你的自我介绍，我使用了 <br> 进行换行，使其在网页上显示为三行
-footer_text: >
-  本科毕业于武汉理工大学车辆工程专业 (2023) <br>
-  曾任东风研发总院 (DFRD) 整车 EEA 设计工程师 <br>
-  现就读于武汉理工大学 & 法国 Efrei 大数据与人工智能硕士项目
-
 description: > 
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 

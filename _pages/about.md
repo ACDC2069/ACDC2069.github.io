@@ -2,33 +2,26 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle:  # 副标题，也就是名字下面那行小字。如果不需要，留空即可
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image_circular: false # 如果想要圆形头像，改为 true
+  image_class: img-fluid z-depth-1
+  # 下面是头像下方的地址信息，不需要的话可以全部留空或删除
+  address: >
+    <p>武汉理工大学 & Efrei Paris</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+news: true  # 是否显示新闻
+selected_papers: true # 是否显示精选论文
+social: true  # 是否显示社交图标（邮箱、Github等）
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+本科毕业于 **武汉理工大学** 车辆工程专业 (2023)。
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+曾任 **东风研发总院 (DFRD)** 整车电气系统 (EEA) 设计工程师。
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+现就读于 **武汉理工大学** 与 **法国 Efrei** 大数据与人工智能硕士项目。
+
+我的研究兴趣包括计算机视觉 (Computer Vision) 和 图像融合 (IVIF)。
