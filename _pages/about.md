@@ -6,8 +6,8 @@ subtitle:  # 副标题，也就是名字下面那行小字。如果不需要，�
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # 如果想要圆形头像，改为 true
+  image: wbn.jpg
+  image_circular: true # 如果想要圆形头像，改为 true
   image_class: img-fluid z-depth-1
   # 下面是头像下方的地址信息，不需要的话可以全部留空或删除
   address: >
